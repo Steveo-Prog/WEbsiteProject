@@ -13,6 +13,7 @@ export class App extends Component {
     return (
       <Router>
         <div style={{width: "100%", padding: "0px"}}>
+          test
           <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route exact path="/about" element={<About />}/>
